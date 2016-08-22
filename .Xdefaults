@@ -1,0 +1,20 @@
+!---Xft Settings---! ==Run after making changes: xrdb -merge ~/.Xresources
+Xft.dpi:		96
+Xft.antialias:		1
+Xft.rgba:		rgb
+Xft.hinting:		1
+Xft.autohint: 		0
+Xft.lcdfilter:  	lcddefault
+Xft.hintstyle:  	hintfull
+
+!---Urxvt Settings---!
+URxvt.termName: 	rxvt
+URxvt.geometry:	65x15
+URxvt.background:	black
+URxvt.foreground:	green
+URxvt.font:		9x15
+URxvt.boldfont:	9x15bold
+URxvt.scrollBar:	false
+URxvt.letterSpace: 	-1
+URxvt.iconFile:		/home/zaf/.icons/Faenza/apps/scalable/utilities-terminal.svg
+URxvt*iconFile:		/home/zaf/.icons/Faenza/apps/32/utilities-terminal.svg
