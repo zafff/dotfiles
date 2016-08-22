@@ -41,11 +41,11 @@ alias wifi_down='ip link set wlp3s0 up'
 
 ## Research Related Stuff ###
 #alias mercury='sh bin/Mercury_3.7/bin/mercury'
-alias latec="sh /home/zaf/Linux_Hacks/latec"
+alias latec="sh ~/Linux_Hacks/latec"
 alias gausssum='python2 bin/GaussSum-3.0/GaussSum.py'
 alias comsol='sh bin/COMSOL51/bin/comsol'
-alias zotero="sh /home/zaf/bin/Zotero_linux-i686/run-zotero.sh"
-alias spyder="python2.7 /home/zaf/bin/spyder-2.3.6/bootstrap.py"
+alias zotero="sh ~/bin/Zotero_linux-i686/run-zotero.sh"
+alias spyder="python2.7 ~/bin/spyder-2.3.6/bootstrap.py"
 
 
 ## ls ## {{{
@@ -67,24 +67,23 @@ alias ssh="ssh -CY"
 alias mount="sudo mount"
 alias umount="sudo umount"
 alias dhcpcd='sudo dhcpcd'
-alias mnt="sh /home/zaf/Linux_Hacks/mnt.sh"
-alias cp="/home/zaf/Linux_Hacks/cp -g"
+alias mnt="sh ~/Linux_Hacks/mnt.sh"
+alias cp="~/Linux_Hacks/cp -g"
 alias cpp="rsync -ah --info=progress"
-#alias pacget="sh /home/zaf/Linux_Hacks/pacget.sh"
+#alias pacget="sh ~/Linux_Hacks/pacget.sh"
 alias test_micro="arecord -vv -f dat /dev/null"
 
 
 alias pico115="picocom --b 115200 --omap crcrlf /dev/ttyUSB0"
 alias pico96="picocom --b 9600 --omap crcrlf /dev/ttyUSB0"
-#alias jdownloader="sh /home/zaf/.jdownloader/JDLauncher"
-alias jdownloader="java -jar /home/zaf/.jd2/JDownloader.jar"
+#alias jdownloader="sh ~/.jdownloader/JDLauncher"
+alias jdownloader="java -jar ~/.jd2/JDownloader.jar"
 alias fityk="fityk &"
-alias pms="sh /home/zaf/.pms-1.90.1/PMS.sh"
-alias arduino="/home/zaf/.arduino-1.0.6/arduino"
-#Copy Stuff
-alias encry="encfs /home/zaf/Copy/encrypted /home/zaf/Research/"
-alias dencry="fusermount -u /home/zaf/Research/"
-alias Copy="/home/zaf/.copy/Software/CopyAgent &"
+alias pms="sh ~/.pms-1.90.1/PMS.sh"
+alias arduino="~/.arduino-1.0.6/arduino"
+#Cloud Stuff
+alias encry="encfs ~/OneDrive/encrypted ~/Research/"
+alias dencry="fusermount -u ~/Research/"
 
 cp_p() 
 { 

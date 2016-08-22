@@ -1,4 +1,3 @@
-leafpad .Xmodmap 
 volumeicon 
 tint2conf 
 leafpad .config/openbox/rc.xml 
@@ -496,5 +495,6 @@ ln -s  dotfiles/.bash_profile .
 ln -s  dotfiles/.bash_logout .
 ln -s  dotfiles/.conkyrc .
 leafpad 
+leafpad .bashrc 
 leafpad .bashrc 
 leafpad .bashrc 
