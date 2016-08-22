@@ -1,4 +1,3 @@
-xev 
 leafpad .Xmodmap 
 volumeicon 
 tint2conf 
@@ -497,4 +496,5 @@ ln -s  dotfiles/.bash_profile .
 ln -s  dotfiles/.bash_logout .
 ln -s  dotfiles/.conkyrc .
 leafpad 
+leafpad .bashrc 
 leafpad .bashrc 

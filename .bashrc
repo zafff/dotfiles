@@ -1,7 +1,7 @@
 command fortune
 shopt -s checkwinsize
 
-xseticon -id $WINDOWID /home/zaf/.icons/Faenza/apps/48/xterm.png
+xseticon -id $WINDOWID ~/.icons/Faenza/apps/48/xterm.png
 
 #[ ! "$UID" = "0" ] && archbey -c white
 #[  "$UID" = "0" ] && archbey -c red
