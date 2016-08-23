@@ -81,6 +81,7 @@ alias jdownloader="java -jar ~/.jd2/JDownloader.jar"
 alias fityk="fityk &"
 alias pms="sh ~/.pms-1.90.1/PMS.sh"
 alias arduino="~/.arduino-1.0.6/arduino"
+alias onedrive="~/bin/onedrive-master/onedrive"
 #Cloud Stuff
 alias encry="encfs ~/OneDrive/encrypted ~/Research/"
 alias dencry="fusermount -u ~/Research/"

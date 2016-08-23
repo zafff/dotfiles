@@ -1,75 +1,3 @@
-volumeicon 
-tint2conf 
-leafpad .config/openbox/rc.xml 
-leafpad .config//openbox/autostart 
-cat .xinitrc 
-leafpad .xinitrc 
-su
-cd xylib/
-makepkg -i PKGBUILD 
-sudo pacman -S boost
-makepkg -i PKGBUILD 
-aurget fityk
-aurget -S fityk
-sudo pacman -Ss keepass
-reboot
-aurget -Ss sublime
-aurget -S sublime-text
-pacman -S fityk
-aurget -S fityk
-aurget -Ss fityk
-aurget -S fityk-git
-aurget -S xylib
-aurget -Ss xylib
-aurget xylib
-aurget -S xylib
-xinput 
-xinput --list-props 14
-su
-su
-suspend 
-leafpad .bashrc 
-dhcpcd 
-test_micro 
-which dhcpcd
-su
-dhcpcd 
-sudo dhcpcd
-dhcpcd
-visudo 
-su
-leafpad .bashrc 
-ps aux | grep lock
-leafpad .config/openbox/autostart 
-leafpad .xinitrc 
-ps aux | grep lock
-ping intnet.mu
-mount /dev/sdb1 /media/
-umount /dev/sdb1 
-su
-umount /dev/sdb1 
-systemctl suspend
-cat /etc/mkinitcpio.conf 
-leafpad /etc/mkinitcpio.
-leafpad /etc/mkinitcpio.conf 
-ps aux | grep lock
-exit
-ps aux | grep lock
-ps aux | grep lock
-ps aux | grep xautolock
-hdcpcd
-dhcpcd
-leafpad .xinitrc 
-reboot
-ps aux | grep xautolock
-pacman -S xautolock
-sudo pacman -S xautolock
-dhcpcd
-sudo pacman -S xautolock
-leafpad .xinitrc 
-logout
-ps aux | grep lock
-leafpad tests.txt
 umount /dev/sdb1 
 mountfat /dev/sdb1 /media/
 dmesg
@@ -498,3 +426,75 @@ leafpad
 leafpad .bashrc 
 leafpad .bashrc 
 leafpad .bashrc 
+vdir 
+fgrep
+echo "# dotfiles" >> README.md
+git init
+git add README.md 
+git commit -m "First Commit"
+git remote add origin https://github.com/zafff/dotfiles.git
+git push -u origin master
+git@github.com:zafff/dotfiles.git
+git config --global user.name  "zafff"
+git init
+git add dotfiles/
+git commit -m "First commit."
+git commit -m "First commit."
+git config --global user.name  "zafff"
+git commit -m "First commit."
+git config --global user.name  "zafff"
+git config --global user.email  "zaf_uom@yahoo.com"
+git commit -m "First commit."
+git remote add origin https://github.com/zafff/dotfiles.git
+git push -u origin master
+git push -u origin master
+git ls
+git rm dotfiles
+git add dotfiles/*
+git ls-files
+git rm -r dotfiles/*
+git rm -rf dotfiles/*
+git ls-files
+cd dotfiles/
+git add .
+git ls-files
+echo "# ArchLinux Dotfiles" >> README.md
+git init
+git add README.md 
+git ls-files
+git commit -m "Initial Commit"
+git remote add origin https://github.com/zafff/dotfiles.git
+git push -u origin master
+ls
+git add .
+git push -u origin master
+ls -al
+git push -u origin master
+git add .bashrc 
+git push -u origin master
+git init
+git add .
+git push -u origin master
+git push
+git add .asoundrc 
+git add
+git add .
+git ls-files
+git commit -m "Initial Commit"
+git push
+git push
+git commit -m "Replaced /home/zaf with ~/"
+git push -u origin master
+git commit -m "Replaced /home/zaf"
+git commit "Replaced /home/zaf"
+git commit -am "Replaced /home/zaf"
+git push
+git push
+git commit -am "Replaced /home/zaf"
+git push
+git push
+xdg-open 
+xdg-open $1 &> /dev/null &disown;
+ls -ltrsa "$@" | tail;
+sh onedrive
+./onedrive 
