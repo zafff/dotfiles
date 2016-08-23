@@ -1,10 +1,10 @@
 #
-# ~/.bash_profile
+# .bash_profile
 #
 
-PATH=$PATH:/home/zaf/Linux_Hacks:/home/zaf/Research/Scripts:/home/zaf/bin/Mercury-i686/bin:/home/zaf/bin/Zotero-i686:/home/zaf/bin/VESTA-i686:/home/zaf/bin/onedrive-master
+PATH=$PATH:~/Linux_Hacks:~/Research/Scripts:~/bin/Mercury-i686/bin:~/bin/Zotero-i686:~/bin/VESTA-i686:~/bin/onedrive-master
 export PATH
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+[[ -f .bashrc ]] && . .bashrc
 
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
